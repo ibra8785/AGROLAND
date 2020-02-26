@@ -608,7 +608,7 @@ a
 
 .section__Formulaire
 {
-    height: 100vh;
+    min-height: 100px;
     position: relative;
 }
 
@@ -627,7 +627,7 @@ iframe
 .Espace__Formulaire
 {
     width: 35%;
-    height: 60vh;
+    min-height: 100px;
     background: var(--color-white);
     position: absolute;
     left: 50%;
@@ -882,4 +882,138 @@ iframe
     left: 50%;
     transform: translate(-50%,-50%);
     color: var(--color-white);
+}
+
+/* MEDIA QUERIE ************/
+
+@media screen and (max-width:768px){
+    .Nbox{
+        width: 95%;
+        margin: 0 auto 50px;
+    }
+
+    .Nabout{
+        display: block;
+    }
+
+    .Naboutcard2
+    {
+       margin-top: 25px;
+       margin: 15px auto;
+    }
+
+    .Ncards{
+        display: block;
+    }
+
+    .Ntitre{
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Naboutcard1
+    {
+        width: 100%;
+        min-height: 370px;
+        text-align: center;
+    }
+
+    .Nsvg1,
+    .Nsvg2{
+        margin: 10px;
+        justify-content: center;
+    }
+
+    .Nsvg2 h3,
+    .Nsvg1 h3{
+        margin-left: 0;
+        text-align: initial;
+        margin-left: 10px;
+    }
+
+    .m-part-one {
+        min-height: 100px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .m-description-one {
+        flex: 50%;
+        justify-content: center;
+    }
+
+    .m-part-two {
+        display: block;
+    }
+
+    .m-illustration {
+        display: none;
+    }
+
+    .m-description {
+        width: 100%;
+        min-height: 150px;
+        margin-left: 0px;
+        padding: 40px 20px 0;
+    }
+
+    .m-second-blog {
+        min-height: 200px;
+        width: 90%;
+        margin: 80px auto;
+        display: block;
+    }
+
+    .Espace__Formulaire {
+        width: 85%;
+        min-height: 100px;
+        background: var(--color-white);
+        margin-top: 0px;
+        position: relative;
+        top: -10%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .Espace__Formulaire form {
+        box-shadow: none;
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+
+    .B_btn {
+        position: relative;
+        left: 0%;
+        bottom: 0;
+        transform: translate(0);
+    }
+
+    .maps
+    {
+        height: 400px;
+    }
+
+    .Element__Section__One {
+        height: auto;
+    }
+
+    .Footer__Section__One {
+        display: block;
+        margin-top: 20px;
+        border-bottom: 1px solid var(--color-B-principal);
+        min-height: 280px;
+    }
+
+    .B-footer {
+        min-height: 400px!important;
+        width: 100%;
+        background: var(--color-B-footer);
+        padding: 50px 20px;
+        position: relative;
+    }
 }
