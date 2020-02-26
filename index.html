@@ -9,53 +9,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="nav sticky">
+        <div class="title">
+            <div class="agro"><h1>AGR</h1></div>
+            <h1>OLAND</h1>
+        </div>
+        <div class="links">
+            <ul>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">HOME &or;</button>
+                        <div class="dropdown-content">
+                            <a href="#">Homepage One</a>
+                            <a href="#">Homepage One</a>
+                            <a href="#">Homepage One</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">ABOUT</li></a>
+                <li><a href="#">SERVICES</li></a>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">PAGES &or;</button>
+                        <div class="dropdown-content">
+                            <a href="#">page One</a>
+                            <a href="#">page One</a>
+                            <a href="#">page One</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">BLOG &or;</button>
+                        <div class="dropdown-content">
+                            <a href="#">Blog One</a>
+                            <a href="#">Blog One</a>
+                            <a href="#">Blog One</a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">CONTACT</li></a>
+            </ul>
+        </div>
+    </nav>
     
     <!--My Header -->
-    <header class="Dheader">
-        <nav class="nav">
-            <div class="title">
-                <div class="agro"><h1>AGR</h1></div>
-                <h1>OLAND</h1>
-            </div>
-            <div class="links">
-                <ul>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropbtn">HOME &or;</button>
-                            <div class="dropdown-content">
-                                <a href="#">Homepage One</a>
-                                <a href="#">Homepage One</a>
-                                <a href="#">Homepage One</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">ABOUT</li></a>
-                    <li><a href="#">SERVICES</li></a>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropbtn">PAGES &or;</button>
-                            <div class="dropdown-content">
-                                <a href="#">page One</a>
-                                <a href="#">page One</a>
-                                <a href="#">page One</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown">
-                            <button class="dropbtn">BLOG &or;</button>
-                            <div class="dropdown-content">
-                                <a href="#">Blog One</a>
-                                <a href="#">Blog One</a>
-                                <a href="#">Blog One</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li><a href="#">CONTACT</li></a>
-                </ul>
-            </div>
-        </nav>
-
+    <header class="Dheader" id="header">
         <div class="textHeader">
             <h1 class="farmer">Farmer</h1>
             <h1 class="feed">FEEDING THE WORLD</h1>
@@ -221,6 +220,26 @@
         </div>
     </div>
 
+    <!-- section blog -->
+    <div class="m-second-blog">
+        <div class="m-blog-description">
+            <h1>ABOUDDANT  <strong>LIVING</strong></h1><br>
+            <P>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consequatur non 
+                maiores hic, iure corporis est, aspernatur quam beatae dolor ab nam. Dolorem 
+                dolores quis earum doloribus totam amet alias animi sunt voluptates dignissimos. <br> <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic molestias tempore sed 
+                doloribus animi illo harum?
+            </p>
+            <a href="#">
+                <button type="button" class="btn-link">LEARN MORE</button>
+            </a>
+        </div>
+        <div class="m-blog-illustration">
+            <img src="images/img14.jpg" alt="fruits">
+        </div>
+    </div>
+
     <!--Section Form-->
     <div class="section__Formulaire">
         <!--Google Maps-->
@@ -324,12 +343,12 @@
             </div>
             <!--Copyright-->
             <div class="copyright">
-                <p>&copy;2019 Agroland agriculture & organic food html template</p>
+                <p>&copy; copyright Devfront 3.20 Template</p>
             </div>
         </div>
 
         <!--btn link -->
-        <a href="#">
+        <a href="#header">
             <div class="B-circle">
                 <span class="B-chevron">&#94;</span>
             </div>
