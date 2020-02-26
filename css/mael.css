@@ -19,6 +19,7 @@
 html
 {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body
@@ -32,15 +33,17 @@ body
 .section__Formulaire
 {
     height: 100vh;
-    width: 100%;
-
 }
 
 /*-- Google Maps --*/
 .maps
 {
     height: 50vh;
-    background: var(--color-black);
+}
+
+iframe 
+{
+    width: 100%;
 }
 
 /*-- Espace Formulaire --*/
@@ -304,5 +307,15 @@ textarea
     position: absolute;
     right: 40px;
     bottom: 20px;
+    cursor: pointer;
 } 
 
+.B-chevron
+{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--color-white);
+}
