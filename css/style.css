@@ -229,22 +229,24 @@ a
     display: flex;
 }
 
-.Nsvg h3{
-    margin-top: 30px;
+.Nsvg h3
+{
     color: #262626;
     margin-left: 15px;
 }
 
 /* cards 2 */
 
-.Naboutcard2 img{
+.Naboutcard2 img
+{
     width: 600px;
     min-height: 370px;
 }
 
 /* second bloc */
 
-.Nproducts{
+.Nproducts
+{
     width: 60%;
     min-height: 600px;
     margin-left: 18%;
@@ -292,36 +294,43 @@ a
 {
     min-height: 300px;
     margin-left: 25px;
+    box-shadow:2px 1px 12px 0px #ccc;
 }
 
-.desc2{
+.desc2
+{
     color: #f1cc66;
 }
 
-.desc3, .desc1 {
+.desc3, .desc1
+{
     color: #46856c;
 }
 
-.Nillus img{
+.Nillus img
+{
     width: 380px;
     height: 230px;
 }
 
-.Ndescrip p{
+.Ndescrip p
+{
     margin-top: 15px;
     font-size: 20px;
     padding: 5px 0;
     color: #939393;
 }
 
-.Ndescrip a{
+.Ndescrip a
+{
     margin-top: 10px;
     text-decoration: none;
     color: black;
     font-size: 25px;
 }
 
-.Ndescrip{
+.Ndescrip
+{
     width: 380px;
     height: 200px;
     background-color: white;
@@ -330,10 +339,7 @@ a
     margin-bottom: 10px;
 }
 
-.Ndescrip h6{
+.Ndescrip h6
+{
    margin-bottom: 15px;
-}
-
-.Ncards1, .Ncards2, .Ncards3{
-    box-shadow:2px 1px 12px 0px #ccc;
 }
