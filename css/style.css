@@ -418,9 +418,6 @@ a
     object-fit: cover;
 }
 
-
-
-
 .m-description-one span
 {
     color: #999999;
@@ -430,7 +427,7 @@ a
 .m-part-two
 {
     width: 100%;
-    min-height: 900px;
+    height: 550px;
     position: relative;
     display: flex;
     margin-top: 50px;
@@ -438,75 +435,116 @@ a
 
 /**part-two:m-illustration**/
 .m-illustration
-{
-    width: 50%;
-    height: 800px;
-   background: url('../images/field-857903_1920.jpg') no-repeat center;
-   background-size: cover;
-    padding-left:250px;
-    padding-top: 80px;
-   color: #fff;
-   margin-top: -60px;
-   z-index: 9999 ;
-
+{   flex: 1;
+    height: 550px;
+    background: url('../images/field-857903_1920.jpg');
+    background-size: cover;
+    z-index: 9999 ;
+    margin-top: -60px;
 }
 
 
 /**part-two:m-description**/
 .m-description
 {
-    width: 70%;
-    height: 800px;
+    flex: 1;
+    min-height: 550px;
     background-color: #BB9013;
-    margin-left: -200px;
-    padding-left: 240px;
-    padding-top:80px; 
+    margin-left: -140px;
+    padding: 35px 0 0 180px ;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .m-content
 {
     height: 600px;
     width: 600px; 
-    font-size: 20px;
     color: white;
-    text-align: justify;
-}
-
-
-
-
-/** m-text**/
-.m-text
-{
-    height: 200px;
-    width: 600px;
-    display: flex;
-}
-
-.m-text .m-cercle
-{
-    flex:1;
-    height: 100px;
-    width: 50px;
-    width: 100px;
-    border-radius: 1px solid white;
-    border: #fff;
-    border: 1Px solid white;
-    border-radius: 50%;
-    background-color: black;
-}
-
-.cercle-description
-{
-    flex: 1;
-    height: 100px;
-    width: 500px;
+    text-align: left;
 }
 
 .m-content span
 {
-    font-size: 30px;
-    
+    font-size: 14px;
 }
+
+.m-content h1
+{
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.m-text
+{
+    margin-top: 34px;
+}
+
+.m-text_item{
+    display: flex;
+    margin-bottom: 34px;
+}
+
+.m-cercle
+{
+    height: 80px;
+    width: 80px;
+    border: 1px solid white;
+    border: #fff;
+    border: 1Px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    position: relative;
+    margin-right: 17px;
+}
+
+.m-cercle img
+{
+    object-fit: cover;
+    width: 65%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cercle-description
+{
+    width: 70%;
+}
+
+.cercle-description h2
+{
+    margin-bottom: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** PAGE two ***/
 
