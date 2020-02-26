@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 *
 {
@@ -9,9 +8,9 @@
     box-sizing: border-box;
 }
 
-a,p
+body
 {
-    font-family: arial ;
+    font-family: 'Poppins', sans-serif;
 }
 
 a
@@ -199,11 +198,10 @@ a
 .Naboutcard1 h2
 {
     color: #262626;
-    padding-top: 15px;
     font-weight: bold;
 }
 
-.Naboutcard1 h4
+.Naboutcard1 h3
 {
     color: #4a876e;
     padding-top: 15px;
@@ -253,11 +251,14 @@ a
     margin-top: 60px;
 }
 
-.Nproducts span{
+.Np span
+{
+    font-family: arial;
     font-weight: bolder;
 }
 
-.Np{
+.Np
+{
     font-size: 30px;
     color: #262626;
     text-align: center;
@@ -285,6 +286,12 @@ a
     min-height: 100%;
     margin-top: 20px;
     padding-top: 25px;
+}
+
+.Ncards1, .Ncards2, .Ncards3
+{
+    min-height: 300px;
+    margin-left: 25px;
 }
 
 .desc2{
@@ -320,10 +327,11 @@ a
     background-color: white;
     margin-top:-10px ;
     padding: 30px;
+    margin-bottom: 10px;
 }
 
 .Ndescrip h6{
-    margin-top: 10px;
+   margin-bottom: 15px;
 }
 
 .Ncards1, .Ncards2, .Ncards3{
