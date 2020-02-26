@@ -97,6 +97,7 @@ form
     border: none;
     font-size: 18px; 
     color: var(--color-B-principal);
+    outline: none;
 }
 
 .B_btn
