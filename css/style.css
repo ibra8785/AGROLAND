@@ -380,6 +380,205 @@ a
    color: var(--color-B-bg-logo);
 }
 
+/*****************************************************************/
+.corps
+{
+    width: 100%;
+    min-height: 100px;
+}
+
+.m-part-one
+{
+    min-height: 100px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.m-description-one
+{
+    flex: 1;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.description-one__illustration{
+    height: 80px;
+    width: 80px;
+}
+
+.m-img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+
+.m-description-one span
+{
+    color: #999999;
+}
+
+/** part-two**/
+.m-part-two
+{
+    width: 100%;
+    min-height: 900px;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+
+/**part-two:m-illustration**/
+.m-illustration
+{
+    width: 50%;
+    height: 800px;
+   background: url('../images/field-857903_1920.jpg') no-repeat center;
+   background-size: cover;
+    padding-left:250px;
+    padding-top: 80px;
+   color: #fff;
+   margin-top: -60px;
+   z-index: 9999 ;
+
+}
+
+
+/**part-two:m-description**/
+.m-description
+{
+    width: 70%;
+    height: 800px;
+    background-color: #BB9013;
+    margin-left: -200px;
+    padding-left: 240px;
+    padding-top:80px; 
+}
+.m-content
+{
+    height: 600px;
+    width: 600px; 
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+
+
+
+/** m-text**/
+.m-text
+{
+    height: 200px;
+    width: 600px;
+    display: flex;
+}
+
+.m-text .m-cercle
+{
+    flex:1;
+    height: 100px;
+    width: 50px;
+    width: 100px;
+    border-radius: 1px solid white;
+    border: #fff;
+    border: 1Px solid white;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.cercle-description
+{
+    flex: 1;
+    height: 100px;
+    width: 500px;
+}
+
+.m-content span
+{
+    font-size: 30px;
+    
+}
+
+/*** PAGE two ***/
+
+.m-second-blog
+{
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.m-blog-description , .m-blog-illustration
+{
+  flex:1;
+  height: 400px;
+}
+
+.m-blog-description  
+{
+   padding-left: 10px; 
+   text-align: justify;
+}
+
+
+.m-blog-description h1 
+{
+  font-weight: initial;
+}
+
+.m-blog-description  p
+{
+    line-height: 30px;
+    font-size: 20px; 
+    color:#A3A3A4;
+}
+
+.m-blog-description  button
+{
+    height: 50px;
+    width: 180px;
+    margin-top: 20px;
+    background-color: none;
+    border: 2px solid #bb9010;
+}
+
+
+.m-blog-description  button:focus
+{
+  outline: none;
+}
+
+
+.m-blog-description  button a
+{
+ text-decoration: none;
+ color: #bb9010;
+ font-size: 20px;
+}
+
+
+.m-blog-illustration
+{
+    background:url('../images/img14.jpg') no-repeat center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+
+/* ************************************************************/
+
 /*-- Section Formulaire --*/
 
 
