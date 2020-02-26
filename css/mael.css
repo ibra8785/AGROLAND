@@ -27,9 +27,13 @@ body
 }
 
 /*-- Section Formulaire --*/
+
+
 .section__Formulaire
 {
     height: 100vh;
+    width: 100%;
+
 }
 
 /*-- Google Maps --*/
