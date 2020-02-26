@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Of header */
+
+.Dheader
+{
+    background: url(../images/cow.jpg);
+    height: 75vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 100px;
+}
+
+.title
+{
+    display: flex;
+    margin-left: 20%;
+    font-family: 'Anton' ;
+    font-size: 22px;
+}
+
+.agro
+{
+    width: 55px;
+    height: 45px;
+    background-color: #45856b;
+    padding-left: 4px;
+}
+
+.agro h1
+{
+    color: white;
+}
+
+.links
+{
+    margin-right: 15%;
+}
+
+.links ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.links ul li
+{
+    margin-right: 25px;
+}
+
+.links ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+select
+{
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+}
+
+option.focus
+{
+    outline: none;
+}
+
+.textHeader
+{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: white;
+}
+
+.textHeader h1
+{
+    padding-bottom: 20px;
+}
+
+.antom
+{
+    font-family: 'Anton' ;
+    font-size: 55px;
+    font-weight: bolder;
+}
