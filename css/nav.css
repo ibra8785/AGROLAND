@@ -1,0 +1,86 @@
+:root
+{
+    --color-primary: #983298;
+    --color-black: black;
+    --color-grey: #737373;
+    --color-head: #80939a;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Of Nav Bar */
+
+.navigation
+{
+   background-color: rgba(0,0,0, 0.3);
+}
+
+.navbar-brand h1
+{
+    color: white;
+}
+
+.navbar-brand span
+{
+    background-color: green;
+}
+
+.collapse ul
+{
+	margin: 0 auto;
+}
+
+.nav-link
+{
+    color: #737373;
+}
+
+.nav-link:hover
+{
+    color: #737373;
+}
+
+.tog
+{
+    color: blue;
+}
+
+.form-control
+{
+    width: 300px;
+}
+
+i
+{
+    color: var(--color-grey);
+}
+
+.container
+{
+	max-width: 1140px;
+}
+
+.button
+{
+    border: 1px solid var(--color-head);
+    background-color: transparent;
+    color: #737373;
+    border-radius: 4px;
+}
+
+.button:hover
+{
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+}
+
+.login
+{
+    margin-left: 15px;
+}
